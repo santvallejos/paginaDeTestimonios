@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FAFAF9;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+}
+
+section, aside {
+  width: 50%;
+}
+
+.logo {
+  background: #F5C044;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo svg {
+  width: 24px;
+  aspect-ratio: 1;
+}
+
+section h2 {
+  font-size: 36px;
+  color: #18181B;
+}
+section p {
+  font-size: 20px;
+  color: #52525A;
+  margin-top: 10px;
+  line-height: 30px;
+}
+section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+section ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #52525A;
+}
+section ul li svg {
+  width: 24px;
+  aspect-ratio: 1;
+  margin-right: 10px;
+}
+
+section ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  width: 50%;
+}
+.card h4 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.card p {
+  font-size: 16px;
+  color: #52525A;
+  margin-top: 5px;
+  line-height: 30px;
+}
+
+.card1 {
+  align-self: flex-end;
+}
+
+.card header > img {
+  width: 100px;
+  height: 35px;
+}
+
+.card header .rating svg {
+  width: 24px;
+  aspect-ratio: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */
